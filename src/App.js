@@ -3,6 +3,7 @@ import * as mobilenet from "@tensorflow-models/mobilenet";
 import * as tf from '@tensorflow/tfjs';
 import '@tensorflow/tfjs-backend-webgl';
 
+
 function App() {
   const [isModelLoading, setIsModelLoading] = useState(false)
   const [model, setModel] = useState(null)
